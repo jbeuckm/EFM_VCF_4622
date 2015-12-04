@@ -13030,7 +13030,7 @@ drill 1.0 mm</description>
 <part name="R7" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="P-3" library="supply1" deviceset="-12V" device=""/>
 <part name="Q2" library="transistor-npn" deviceset="2N3904" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
+<part name="C3" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="P+4" library="supply1" deviceset="+12V" device=""/>
 <part name="P-4" library="supply1" deviceset="-12V" device=""/>
@@ -13058,15 +13058,15 @@ drill 1.0 mm</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="P-7" library="supply1" deviceset="-12V" device=""/>
-<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
+<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181C" value="10uF"/>
 <part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0309/12" value="10k"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
+<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
 <part name="C8" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
 <part name="Q" library="pot" deviceset="3RP/1610N" device="" value="10k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
