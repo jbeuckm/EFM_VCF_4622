@@ -13048,7 +13048,7 @@ drill 1.0 mm</description>
 <part name="R24" library="rcl" deviceset="R-US_" device="0309/12" value="470k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
-<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181C" value="10uF"/>
+<part name="C11" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
 <part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0309/12" value="10k"/>

@@ -1162,32 +1162,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="B45181C">
-<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
-body 12.7 x 7.6 mm, rectangle, grid 10.16 mm</description>
-<wire x1="5.842" y1="3.683" x2="-5.461" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="6.223" y1="3.302" x2="6.223" y2="-3.302" width="0.1524" layer="21"/>
-<wire x1="-5.461" y1="-3.683" x2="5.842" y2="-3.683" width="0.1524" layer="21"/>
-<wire x1="-6.223" y1="2.921" x2="-5.461" y2="3.683" width="0.1524" layer="21"/>
-<wire x1="-4.318" y1="1.6764" x2="-4.318" y2="1.0414" width="0.1524" layer="21"/>
-<wire x1="-3.9878" y1="1.3716" x2="-4.6482" y2="1.3716" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="0" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.2192" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.2192" x2="-0.254" y2="-1.2192" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="-1.2192" x2="-0.254" y2="1.2192" width="0.1524" layer="21"/>
-<wire x1="-0.254" y1="1.2192" x2="-0.762" y2="1.2192" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="1.2192" x2="-0.762" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0" x2="3.556" y2="0" width="0.1524" layer="21"/>
-<wire x1="-5.461" y1="-3.683" x2="-6.223" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-6.223" y1="2.921" x2="-6.223" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="5.842" y1="3.683" x2="6.223" y2="3.302" width="0.1524" layer="21" curve="-90"/>
-<wire x1="5.842" y1="-3.683" x2="6.223" y2="-3.302" width="0.1524" layer="21" curve="90"/>
-<pad name="+" x="-5.08" y="0" drill="0.9144"/>
-<pad name="-" x="5.08" y="0" drill="0.9144" shape="octagon"/>
-<text x="-5.334" y="4.064" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="21"/>
-</package>
 <package name="B45181B">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 body 7.6 x 5 mm, rectangle, grid 5.08 mm</description>
@@ -1802,7 +1776,7 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="B45181A" value="10uF" x="19.05" y="50.8" rot="R90"/>
 <element name="C8" library="rcl" package="B45181A" value="10uF" x="19.05" y="68.58" rot="R180"/>
 <element name="C10" library="rcl" package="B45181B" value="10uF" x="64.77" y="16.51" rot="R90"/>
-<element name="C11" library="rcl" package="B45181C" value="10uF" x="90.424" y="32.258"/>
+<element name="C11" library="rcl" package="B45181B" value="10uF" x="90.424" y="32.258"/>
 <element name="C2" library="rcl" package="B45181A" value="10uF" x="19.05" y="58.42" rot="R90"/>
 <element name="C9" library="rcl" package="B45181A" value="10uF" x="25.4" y="52.07" rot="R90"/>
 <element name="C3" library="rcl" package="B45181B" value="10uF" x="16.51" y="27.94" rot="R270"/>
@@ -2080,8 +2054,8 @@ design rules under a new name.</description>
 <wire x1="68.58" y1="43.4975" x2="70.104" y2="53.1495" width="0.8128" layer="16"/>
 <wire x1="68.58" y1="43.4975" x2="68.58" y2="43.18" width="0.6604" layer="16"/>
 <wire x1="81.5975" y1="57.15" x2="83.82" y2="57.15" width="0.8128" layer="16"/>
-<wire x1="79.0575" y1="55.88" x2="81.5975" y2="57.15" width="0.8128" layer="16"/>
-<wire x1="79.0575" y1="55.88" x2="77.47" y2="53.34" width="0.8128" layer="16"/>
+<wire x1="80.3275" y1="54.61" x2="81.5975" y2="57.15" width="0.8128" layer="16"/>
+<wire x1="80.3275" y1="54.61" x2="77.47" y2="53.34" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$12">
 <contactref element="C4" pad="1"/>
@@ -2184,9 +2158,9 @@ design rules under a new name.</description>
 <wire x1="36.195" y1="71.4375" x2="36.83" y2="73.3425" width="0.8128" layer="16"/>
 <wire x1="35.56" y1="69.215" x2="36.195" y2="71.12" width="0.8128" layer="16"/>
 <wire x1="36.195" y1="71.12" x2="36.195" y2="71.4375" width="0.6604" layer="16"/>
-<wire x1="88.3285" y1="30.353" x2="81.5975" y2="29.21" width="0.8128" layer="16"/>
-<wire x1="88.3285" y1="41.8465" x2="88.3285" y2="30.353" width="0.8128" layer="16"/>
-<wire x1="93.5355" y1="45.0215" x2="88.3285" y2="41.8465" width="0.8128" layer="16"/>
+<wire x1="89.5985" y1="35.433" x2="89.4715" y2="30.226" width="0.8128" layer="16"/>
+<wire x1="89.5985" y1="43.1165" x2="89.5985" y2="35.433" width="0.8128" layer="16"/>
+<wire x1="93.5355" y1="45.0215" x2="89.5985" y2="43.1165" width="0.8128" layer="16"/>
 <wire x1="93.5355" y1="63.4365" x2="93.5355" y2="45.0215" width="0.8128" layer="16"/>
 <wire x1="90.4875" y1="73.3425" x2="93.5355" y2="63.4365" width="0.8128" layer="16"/>
 <wire x1="53.594" y1="73.3425" x2="90.4875" y2="73.3425" width="0.8128" layer="16"/>
@@ -2194,7 +2168,7 @@ design rules under a new name.</description>
 <wire x1="44.45" y1="75.7555" x2="49.911" y2="75.7555" width="0.8128" layer="16"/>
 <wire x1="40.3225" y1="71.12" x2="44.45" y2="75.7555" width="0.8128" layer="16"/>
 <wire x1="40.3225" y1="71.12" x2="36.195" y2="71.12" width="0.8128" layer="16"/>
-<wire x1="81.5975" y1="29.21" x2="76.2" y2="27.178" width="0.8128" layer="16"/>
+<wire x1="89.4715" y1="30.226" x2="76.2" y2="27.178" width="0.8128" layer="16"/>
 <wire x1="76.2" y1="27.178" x2="76.2" y2="13.462" width="0.8128" layer="16"/>
 <wire x1="76.2" y1="13.462" x2="75.438" y2="12.7" width="0.8128" layer="16"/>
 </signal>
@@ -2218,12 +2192,12 @@ design rules under a new name.</description>
 <wire x1="58.42" y1="38.1" x2="58.42" y2="34.29" width="0.8128" layer="16"/>
 <wire x1="58.42" y1="34.29" x2="59.69" y2="33.528" width="0.8128" layer="16"/>
 <wire x1="59.69" y1="33.528" x2="81.28" y2="33.528" width="0.8128" layer="16"/>
-<wire x1="81.28" y1="33.528" x2="85.344" y2="32.258" width="0.8128" layer="16"/>
+<wire x1="81.28" y1="33.528" x2="87.884" y2="32.258" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="C11" pad="-"/>
 <contactref element="OUT" pad="P$3"/>
-<wire x1="95.504" y1="32.258" x2="95.25" y2="19.05" width="0.8128" layer="16"/>
+<wire x1="92.964" y1="32.258" x2="95.25" y2="19.05" width="0.8128" layer="16"/>
 <wire x1="95.25" y1="19.05" x2="95.25" y2="16.89" width="0.8128" layer="16"/>
 <wire x1="95.25" y1="16.89" x2="94.06" y2="15.7" width="0.8128" layer="16"/>
 </signal>
@@ -2408,8 +2382,8 @@ design rules under a new name.</description>
 <wire x1="80.01" y1="21.59" x2="77.978" y2="21.59" width="0.8128" layer="16"/>
 <wire x1="74.422" y1="20.574" x2="69.596" y2="25.4" width="0.8128" layer="16"/>
 <wire x1="69.596" y1="25.4" x2="63.5" y2="25.4" width="0.8128" layer="16"/>
-<wire x1="91.44" y1="39.37" x2="91.44" y2="27.94" width="0.8128" layer="16"/>
-<wire x1="91.44" y1="27.94" x2="86.36" y2="26.67" width="0.8128" layer="16"/>
+<wire x1="91.44" y1="39.37" x2="91.44" y2="29.21" width="0.8128" layer="16"/>
+<wire x1="91.44" y1="29.21" x2="86.36" y2="26.67" width="0.8128" layer="16"/>
 <wire x1="81.28" y1="26.67" x2="80.01" y2="24.13" width="0.8128" layer="16"/>
 <wire x1="80.01" y1="24.13" x2="80.01" y2="21.59" width="0.8128" layer="16"/>
 <wire x1="54.61" y1="74.93" x2="92.71" y2="74.93" width="0.8128" layer="16"/>

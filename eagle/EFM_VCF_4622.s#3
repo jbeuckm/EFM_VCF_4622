@@ -13184,7 +13184,7 @@ drill 1.0 mm</description>
 <instance part="IN1" gate="G$1" x="-73.66" y="83.82" rot="MR180"/>
 <instance part="OUT" gate="G$1" x="101.6" y="121.92" rot="R180"/>
 <instance part="GND13" gate="1" x="93.98" y="111.76"/>
-<instance part="P+1" gate="1" x="-73.66" y="129.54"/>
+<instance part="P+1" gate="1" x="-73.66" y="134.62"/>
 <instance part="P+2" gate="1" x="-50.8" y="165.1"/>
 <instance part="P+3" gate="1" x="-35.56" y="165.1"/>
 <instance part="P+4" gate="1" x="35.56" y="165.1"/>
@@ -13688,7 +13688,7 @@ drill 1.0 mm</description>
 <segment>
 <pinref part="PWR1" gate="G$1" pin="+12V"/>
 <wire x1="-76.2" y1="121.92" x2="-73.66" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="121.92" x2="-73.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="121.92" x2="-73.66" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 </segment>
 <segment>
