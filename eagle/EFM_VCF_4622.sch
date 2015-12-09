@@ -13027,11 +13027,10 @@ drill 1.0 mm</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="Q2" library="transistor-npn" deviceset="2N3904" device=""/>
-<part name="C3" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
+<part name="C3" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="CUTOFF" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="IN2" library="solpad" deviceset="LSP10" device=""/>
 <part name="IN1_LEV" library="pot" deviceset="3RP/1610N" device="" value="100k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -13054,7 +13053,7 @@ drill 1.0 mm</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="0309/12" value="10k"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
-<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
+<part name="C10" library="rcl" deviceset="CPOL-US" device="B45181C" value="10uF"/>
 <part name="C8" library="rcl" deviceset="CPOL-US" device="B45181A" value="10uF"/>
 <part name="Q" library="pot" deviceset="3RP/1610N" device="" value="10k"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -13106,6 +13105,13 @@ drill 1.0 mm</description>
 <part name="P-5" library="supply1" deviceset="-12V" device=""/>
 <part name="P-6" library="supply1" deviceset="-12V" device=""/>
 <part name="P-7" library="supply1" deviceset="-12V" device=""/>
+<part name="P-8" library="supply1" deviceset="-12V" device=""/>
+<part name="R1" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
+<part name="CV2" library="solpad" deviceset="LSP10" device=""/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND" library="solpad" deviceset="LSP10" device=""/>
+<part name="GND14" library="solpad" deviceset="LSP10" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13123,7 +13129,6 @@ drill 1.0 mm</description>
 <instance part="R4" gate="G$1" x="-68.58" y="43.18" rot="R180"/>
 <instance part="CUTOFF" gate="G$1" x="-99.06" y="15.24"/>
 <instance part="R3" gate="G$1" x="-68.58" y="15.24" rot="R180"/>
-<instance part="GND2" gate="1" x="-99.06" y="0"/>
 <instance part="IN2" gate="1" x="-60.96" y="60.96" rot="R90"/>
 <instance part="IN1_LEV" gate="G$1" x="-60.96" y="81.28"/>
 <instance part="GND5" gate="1" x="-60.96" y="71.12"/>
@@ -13198,6 +13203,13 @@ drill 1.0 mm</description>
 <instance part="P-5" gate="1" x="63.5" y="43.18"/>
 <instance part="P-6" gate="1" x="-33.02" y="0"/>
 <instance part="P-7" gate="1" x="-50.8" y="0"/>
+<instance part="P-8" gate="1" x="-99.06" y="2.54"/>
+<instance part="R1" gate="G$1" x="-68.58" y="5.08" rot="R180"/>
+<instance part="CV2" gate="1" x="-78.74" y="5.08" rot="R90"/>
+<instance part="GND2" gate="1" x="-48.26" y="48.26"/>
+<instance part="GND" gate="1" x="-60.96" y="55.88" rot="R90"/>
+<instance part="GND14" gate="1" x="-78.74" y="0" rot="R90"/>
+<instance part="GND15" gate="1" x="-63.5" y="-5.08"/>
 </instances>
 <busses>
 </busses>
@@ -13207,11 +13219,6 @@ drill 1.0 mm</description>
 <pinref part="PWR1" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="-76.2" y1="119.38" x2="-63.5" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CUTOFF" gate="G$1" pin="A"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-99.06" y1="10.16" x2="-99.06" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IN1_LEV" gate="G$1" pin="A"/>
@@ -13280,6 +13287,18 @@ drill 1.0 mm</description>
 <pinref part="OUT" gate="G$1" pin="RING"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="93.98" y1="114.3" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="-48.26" y1="50.8" x2="-48.26" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="GND" gate="1" pin="MP"/>
+<wire x1="-48.26" y1="55.88" x2="-58.42" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="-63.5" y1="-2.54" x2="-63.5" y2="0" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="MP"/>
+<wire x1="-63.5" y1="0" x2="-76.2" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -13682,6 +13701,10 @@ drill 1.0 mm</description>
 <wire x1="-63.5" y1="15.24" x2="-58.42" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="15.24" x2="-58.42" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-58.42" y="22.86"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="5.08" x2="-58.42" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-58.42" y="15.24"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -13762,6 +13785,18 @@ drill 1.0 mm</description>
 <wire x1="-50.8" y1="132.08" x2="-50.8" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="P-2" gate="1" pin="-12V"/>
+</segment>
+<segment>
+<pinref part="CUTOFF" gate="G$1" pin="A"/>
+<wire x1="-99.06" y1="10.16" x2="-99.06" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="P-8" gate="1" pin="-12V"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="CV2" gate="1" pin="MP"/>
+<wire x1="-76.2" y1="5.08" x2="-73.66" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../EFM_VCF_4622/eagle/EFM_VCF_4622.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 12/8/15 5:27 PM)
+(This file generated 12/9/15 2:06 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 15000.0000)
@@ -33,12 +33,11 @@ G04 P0.000000
 G00 Z0.0500  
 G00 X0.0000  Y-0.0300 
 G01 Z-0.0630 F5     
-G01 X0.0000  Y2.4800  F10    
-G01 X-1.2000 Y3.0500  
-G01 X-3.6400 Y3.0300  
-G01 X-3.7100 Y3.0000  
-G01 X-3.8300 Y2.6500  
-G01 X-3.8300 Y0.7600  
+G01 X0.0000  Y2.4700  F10    
+G01 X-1.9300 Y2.7500  
+G01 X-3.6000 Y2.7500  
+G01 X-3.9300 Y2.3500  
+G01 X-3.9300 Y0.7600  
 G01 X-4.0000 Y0.6100  
 G01 X-4.0000 Y0.0500  
 G01 X-3.8800 Y-0.0300 
