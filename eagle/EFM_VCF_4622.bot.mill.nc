@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../EFM_VCF_4622/eagle/EFM_VCF_4622.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 12/6/15 9:40 PM)
+(This file generated 12/8/15 5:27 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 15000.0000)
