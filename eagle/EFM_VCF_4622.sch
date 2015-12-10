@@ -13044,13 +13044,13 @@ drill 1.0 mm</description>
 <part name="C5" library="rcl" deviceset="C-US" device="050-025X075" value="0.1uF"/>
 <part name="C6" library="rcl" deviceset="C-US" device="050-025X075" value="0.1uF"/>
 <part name="C4" library="rcl" deviceset="C-US" device="050-025X075" value="0.1uF"/>
-<part name="R24" library="rcl" deviceset="R-US_" device="0309/12" value="470k"/>
+<part name="R24" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R27" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="C11" library="rcl" deviceset="CPOL-US" device="B45181B" value="10uF"/>
 <part name="R18" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0309/12" value="10k"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0309/10" value="10k"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="R19" library="rcl" deviceset="R-US_" device="0207/7" value="1k"/>
 <part name="C10" library="rcl" deviceset="CPOL-US" device="B45181C" value="10uF"/>
